@@ -1,0 +1,39 @@
+.navbar-store {
+    padding-top: 15px;
+
+    @include media-breakpoint-down(md) {
+        background-color: #fff !important;
+    }
+
+    .profile-picture {
+        max-height: 45px;
+    }
+}
+
+.navbar-fixed-top.scrolled {
+    /* untuk bg navbar saat di scrool */
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
+
+.dropdown {
+    .dropdown-menu {
+        .btn-navbar-right {
+            text-align: left;
+            width: 218px;
+            height: 50px;
+            color: #ffff;
+            &:hover {
+                font-size: 25px;
+                font-weight: bold;
+                color: #ffff;
+            }
+        }
+        border-radius: 15px;
+        background-color: #ff5969;
+        margin-top: 6px;
+        margin-left: 7px;
+        width: 220px;
+        height: 70px;
+    }
+}

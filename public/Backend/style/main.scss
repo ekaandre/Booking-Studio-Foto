@@ -1,0 +1,16 @@
+// Import Bootstrap 4 Library
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+//Import scss file
+@import "global";
+@import "fonts";
+@import "navbar";
+
+//Import scss file pages
+@import "pages/dashboard";
+
+//Import scss file components
+@import "components/card";
+
+//Import scss file transitions
+@import "transitions/slide-fade";
